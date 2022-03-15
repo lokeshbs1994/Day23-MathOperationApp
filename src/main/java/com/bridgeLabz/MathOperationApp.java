@@ -10,7 +10,6 @@ public class MathOperationApp {
         //Using Method Reference Instead of lambda expression
         //This expression implements IMath functional interface
         IMathFunction add = Integer::sum;
-
         //Lambda expression for multiplication & division for two parameters
         // This expression implements 'IMathFunction'
         IMathFunction subtract = (x, y) -> x - y;
